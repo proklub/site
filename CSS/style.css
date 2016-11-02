@@ -8,11 +8,15 @@
 }
 .menu {
 	float: left;
-	font-family: 'Roboto', sans-serif;
-	font-size: 12px;
-	padding-top: 16px;
+	padding-top: 14px;
 	position: relative;
     padding-left: 16px;
+}
+.menu_text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
 }
 .menu:before {
   content: "";
@@ -27,12 +31,17 @@
     0 0.5em 0 0 black;
   margin-top: 14px;
 }
+
 .cities {
 	float: left;
+	padding-top: 14px;
+	padding-left: 72px;
+}
+.city_text {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
-	padding-top: 16px;
-	padding-left: 72px;
+	text-decoration: none;
+	color: black;
 }
 .cities:after {
 	position: relative;
@@ -88,7 +97,7 @@
 .navbar_item {
 	float: left;
 	padding-left: 40px;
-  	display: inline-block;
+  	display: block;
   	position: relative;
   	cursor: pointer;
   	padding-top: 16px;
@@ -96,11 +105,25 @@
 .navbar_item:nth-child(1) {
 	padding-left: 18px;
 }
-.nav .navbar_item .navbar_child {
-	display: none;
-	position: absolute;
-	top: 100%;
+.navbar_child {
+	opacity: 0;
+	visibility: hidden;
+	box-shadow: 0 0 5px;
+	margin-top: 20px;
+	transition: all .3s ease .15s;
 }
-.nav .navbar_item:hover .navbar_child {
-	display: block;
+.navbar_item:hover .navbar_child {
+	opacity: 1;
+	visibility: visible;
+}
+.navbar_child .navbar_text {
+	color: black;
+}
+.navbar_child .navbar_text:hover {
+	color: #b85e9f;
+}
+.menu:hover .navbar_child {
+	opacity: 1;
+	visibility: visible;
+}
 }
