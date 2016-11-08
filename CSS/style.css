@@ -221,19 +221,13 @@ body {
 	vertical-align: middle;
 }
 .rating {
-	box-sizing: border-box;
+	margin: 0 auto;
 }
 .star {
-	position: relative;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    line-height: 10px;
-    vertical-align: middle;
-    font-size: 10px;
 }
-.ico_star {
+.icon-star {
 	content: '\e802';
 	color: #ffca54;
-	font-size: 10px;
+	font-size: 15px;
+	display: inline-block;
 }
