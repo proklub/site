@@ -100,7 +100,7 @@
 		<div class="clearfix"></div>
 	</div>
 	<section class="container">
-		<div class="slider">
+		<div class="solo_slider">
 			<div class="slider_blk">
 				<img src="img/slider.jpg" alt="" class="slider_img">
 			</div>
@@ -117,17 +117,76 @@
 			<img src="img/frontground.png" alt="" class="adver_img">
 		</div>
 	</div>
+	<section class="container">
+		<div class="brands">
+			<h2 class="brand_head">БРЭНДЫ</h2>
+			<div class="brand_slider">
+				<div class="slider_blk">
+					<img src="img/multi_slider_one.png" alt="" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/multi_slider_one.png" alt="" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/multi_slider_one.png" alt="" class="slider_img">
+				</div>
+			</div>
+		</div>
+		<div class="novice">
+			<h2 class="novice_head">НОВИНКИ</h2>
+			<div class="novice_slider">
+				<div class="novice_slider_blk">
+					<img src="img/novice_1.png" alt="" class="novice_img">
+				</div>
+				<div class="novice_slider_blk">
+					<img src="img/novice_2.png" alt="" class="novice_img">
+				</div>
+				<div class="novice_slider_blk">
+					<img src="img/novice_3.png" alt="" class="novice_img">
+				</div>
+				<div class="novice_slider_blk">
+					<img src="img/novice_4.png" alt="" class="novice_img">
+				</div>
+				<div class="novice_slider_blk">
+					<img src="img/novice_1.png" alt="" class="novice_img">
+				</div>
+				<div class="novice_slider_blk">
+					<img src="img/novice_2.png" alt="" class="novice_img">
+				</div>
+				<div class="novice_slider_blk">
+					<img src="img/novice_3.png" alt="" class="novice_img">
+				</div>
+				<div class="novice_slider_blk">
+					<img src="img/novice_4.png" alt="" class="novice_img">
+				</div>
+				<div class="novice_slider_blk">
+					<img src="img/novice_1.png" alt="" class="novice_img">
+				</div>
+				<div class="novice_slider_blk">
+					<img src="img/novice_2.png" alt="" class="novice_img">
+				</div>
+				<div class="novice_slider_blk">
+					<img src="img/novice_3.png" alt="" class="novice_img">
+				</div>
+				<div class="novice_slider_blk">
+					<img src="img/novice_4.png" alt="" class="novice_img">
+				</div>
+			</div>
+		</div>
+	</section>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
-	
+
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('.slider').slick({
+			$('.solo_slider').slick({
 			});
-			$('.multiple-items').slick({
+			$('.brand_slider').slick({
+			});
+			$('.novice_slider').slick({
 				infinite: true,
-				slidesToShow: 6,
-				slidesToScroll: 6,
+				slidesToShow: 4,
+				slidesToScroll: 3,
 			});
 		});
 	</script>

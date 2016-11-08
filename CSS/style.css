@@ -7,7 +7,7 @@ body {
 	background-image: url(../img/background_main.png);
 }
 .container {
-	width: 1154px;
+	width: 1200px;
 	margin: 0 auto;
 }
 .top_menu {
@@ -158,7 +158,6 @@ body {
 	display: none;
 	box-shadow: 0 0 5px;
 	margin-top: 20px;
-	transition: all .3s ease .15s;
 	position: relative;
 }
 .navbar_item:hover .navbar_child {
@@ -173,7 +172,7 @@ body {
 .navbar_child .navbar_text:hover {
 	color: #b85e9f;
 }
-.slider {
+.solo_slider {
 	margin: 30px;
 }
 .advertising {
@@ -182,4 +181,42 @@ body {
 }
 .adver_img {
 	padding: 70px 70px;
+}
+.brands {
+	padding-top: 80px;
+	background-color: white;
+}
+.brand_head {
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+.brand_slider {
+	margin-top: 60px;
+	margin-left: 70px;
+}
+.novice {
+	background-color: white;
+	padding-top: 82px;
+}
+.novice_head {
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+.novice_slider {
+	background-color: white;
+	padding-top: 35px;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+.novice_slider_blk {
+	line-height: 178px;
+}
+.novice_img {
+	display: block;
+	margin: 0 auto;
+	vertical-align: middle;
 }
