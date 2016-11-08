@@ -113,7 +113,9 @@
 		</div>
 	</section>
 	<div class="advertising">
-		<img src="img/frontground.png" alt="" class="adver_img">
+		<div class="container">
+			<img src="img/frontground.png" alt="" class="adver_img">
+		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
@@ -121,6 +123,11 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.slider').slick({
+			});
+			$('.multiple-items').slick({
+				infinite: true,
+				slidesToShow: 6,
+				slidesToScroll: 6,
 			});
 		});
 	</script>

@@ -4,7 +4,7 @@
     clear: both;
 }
 body {
-	background-image: url(.../img/background_main.png);
+	background-image: url(../img/background_main.png);
 }
 .container {
 	width: 1154px;
@@ -155,14 +155,17 @@ body {
 }
 .navbar_child {
 	opacity: 0;
-	visibility: hidden;
+	display: none;
 	box-shadow: 0 0 5px;
 	margin-top: 20px;
 	transition: all .3s ease .15s;
+	position: relative;
 }
 .navbar_item:hover .navbar_child {
 	opacity: 1;
-	visibility: visible;
+	display: block;
+	position: absolute;
+	z-index: 10;
 }
 .navbar_child .navbar_text {
 	color: black;
@@ -170,7 +173,13 @@ body {
 .navbar_child .navbar_text:hover {
 	color: #b85e9f;
 }
+.slider {
+	margin: 30px;
+}
 .advertising {
 	height: 305px;
-	background: url(.../img/background.png);
+	background: url(../img/background.png);
+}
+.adver_img {
+	padding: 70px 70px;
 }
