@@ -1,7 +1,7 @@
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 body {
 	background-image: url(../img/background_main.png);
@@ -212,9 +212,6 @@ body {
 	padding-left: 75px;
 	padding-right: 75px;
 }
-.novice_slider_blk {
-	line-height: 178px;
-}
 .novice_img {
 	display: block;
 	margin: 0 auto;
@@ -222,12 +219,18 @@ body {
 }
 .rating {
 	margin: 0 auto;
-}
-.star {
+	unicode-bidi: bidi-override;
+	direction: rtl;
 }
 .icon-star {
 	content: '\e802';
-	color: #ffca54;
+	color: #cccccc;
 	font-size: 15px;
 	display: inline-block;
+	padding-top: 30px;
+}
+.rating > i:hover,
+.rating > i:hover ~ i {
+  color: #ffca54;
+  cursor: pointer;
 }
