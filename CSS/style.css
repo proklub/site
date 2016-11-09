@@ -218,9 +218,9 @@ body {
 	vertical-align: middle;
 }
 .rating {
-	margin: 0 auto;
 	unicode-bidi: bidi-override;
 	direction: rtl;
+	width: 130px;
 }
 .icon-star {
 	content: '\e802';
@@ -233,4 +233,23 @@ body {
 .rating > i:hover ~ i {
   color: #ffca54;
   cursor: pointer;
+}
+.trade_name {
+	padding-top: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	padding-left: 12px;
+}
+.trade_price {
+	margin-top: 20px;
+	padding-top: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin-left: 15px;
+	padding-left: 10px;
+	color: white;
+	background-color: #b85e9f;
+	border: 1px solid #b85e9f;
+	width: 85px;
+	height: 32px;
 }
