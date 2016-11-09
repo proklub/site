@@ -253,3 +253,29 @@ body {
 	width: 85px;
 	height: 32px;
 }
+.sale {
+	background-color: white;
+}
+.sale_head {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+	padding-top: 82px;
+}
+.trade_block_1,
+.trade_block_5 {
+	float: left;
+	padding-left: 72px;
+	padding-top: 58px;
+}
+.trade_block_2,
+.trade_block_3,
+.trade_block_4,
+.trade_block_6,
+.trade_block_7,
+.trade_block_8 {
+	float: left;
+	padding-left: 112px;
+	padding-top: 58px;
+}
