@@ -231,8 +231,8 @@ body {
 }
 .rating > i:hover,
 .rating > i:hover ~ i {
-  color: #ffca54;
-  cursor: pointer;
+	color: #ffca54;
+	cursor: pointer;
 }
 .trade_name {
 	margin-top: 20px;
@@ -264,16 +264,57 @@ body {
 	text-align: center;
 	padding-top: 82px;
 }
+.main_card {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 13px;
+}
 .card_item {
 	float: left;
 	width: 290px;
 	height: 341px;
 	margin-top: 30px;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 13px;
 	box-sizing: border-box;
+	z-index: 0;
 }
-.card_item:hover {
-	box-shadow: 0px 0px 3px rgba(0,0,0,1)
+.card_item:hover .trade_card {
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+	height: 490px;
+	position: relative;
+	z-index: 10;
+}
+.adv_card {
+	width: 290px;
+	margin-top: 20px;
+	opacity: 0;
+	position: relative;
+}
+.add_cart {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	background: #34bdab;
+	height: 50px;
+	width: 290px;
+	text-align: center;
+	padding-top: 15px;
+	border: none;
+}
+.country {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.exp_date {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.card_item:hover .adv_card {
+	z-index: 10;
+	visibility: visible;
+	opacity: 1;
+	background-color: white;
+	position: absolute;
 }
