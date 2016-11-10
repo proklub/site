@@ -319,8 +319,25 @@ body {
 	background-color: white;
 	position: absolute;
 }
+.news_shares {
+	padding-top: 86px;
+	background-color: white;
+}
+.news {
+	float: left;
+}
+.news_text {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	margin-left: 241px;
+}
+.news_pic {
+	margin-left: 66px;
+	margin-top: 47px;
+}
 .about {
-	margin-top: 80px;
+	padding-top: 80px;
 	background-color: white;
 }
 .about_text {
