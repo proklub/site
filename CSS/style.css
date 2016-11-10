@@ -93,6 +93,7 @@ body {
 }
 .main_menu {
 	height: 110px;
+	background-color: white;
 }
 .hotline {
 	float: left;
@@ -209,13 +210,12 @@ body {
 .novice_slider {
 	background-color: white;
 	padding-top: 35px;
-	padding-left: 75px;
-	padding-right: 75px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .novice_img {
 	display: block;
 	margin: 0 auto;
-	vertical-align: middle;
 }
 .rating {
 	unicode-bidi: bidi-override;
@@ -235,7 +235,7 @@ body {
   cursor: pointer;
 }
 .trade_name {
-	padding-top: 18px;
+	margin-top: 20px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	padding-left: 12px;
@@ -255,6 +255,7 @@ body {
 }
 .sale {
 	background-color: white;
+	padding-left: 15px;
 }
 .sale_head {
 	font-family: 'Roboto', sans-serif;
@@ -263,19 +264,16 @@ body {
 	text-align: center;
 	padding-top: 82px;
 }
-.trade_block_1,
-.trade_block_5 {
+.card_item {
 	float: left;
-	padding-left: 72px;
-	padding-top: 58px;
+	width: 290px;
+	height: 341px;
+	margin-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 13px;
+	box-sizing: border-box;
 }
-.trade_block_2,
-.trade_block_3,
-.trade_block_4,
-.trade_block_6,
-.trade_block_7,
-.trade_block_8 {
-	float: left;
-	padding-left: 112px;
-	padding-top: 58px;
+.card_item:hover {
+	box-shadow: 0px 0px 3px rgba(0,0,0,1)
 }
