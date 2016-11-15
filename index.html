@@ -459,7 +459,23 @@
 				<h2 class="news_text">НОВОСТИ</h2>
 				<img src="img/news.png" alt="" class="news_pic">
 			</div>
-			<div class="shares"></div>
+			<div class="main_shares">
+				<h2 class="shares_text">АКЦИИ</h2>
+				<div class="shares">
+					<div class="shares-item" >
+						<img class="slider1" src="img/shares.png">
+					</div>
+					<div class="shares-item" >
+						<img class="slider1" src="img/shares.png">
+					</div>
+					<div class="shares-item" >
+						<img class="slider1" src="img/shares.png">
+					</div>
+					<div class="shares-item" >
+						<img class="slider1" src="img/shares.png">
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="clearfix"></div>
 		<div class="about">
@@ -504,10 +520,10 @@
 					<div class="soc_net">
 						<div class="footer_main_text">Социальные сети</div>
 						<div class="ico">
-						<i class="icon-vkontakte"></i>
-						<i class="icon-facebook"></i>
-						<i class="icon-twitter"></i>
-						<i class="icon-odnoklassniki"></i>
+							<i class="icon-vkontakte"></i>
+							<i class="icon-facebook"></i>
+							<i class="icon-twitter"></i>
+							<i class="icon-odnoklassniki"></i>
 						</div>
 					</div>
 					<div class="contacts">
@@ -531,6 +547,10 @@
 						infinite: true,
 						slidesToShow: 4,
 						slidesToScroll: 3,
+					});
+					$('.shares').slick({
+						arrows: false,
+						dots: true,
 					});
 				});
 			</script>

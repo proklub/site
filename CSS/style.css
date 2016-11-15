@@ -339,6 +339,20 @@ body {
 	margin-left: 66px;
 	margin-top: 47px;
 }
+.main_shares {
+	float: left;
+	margin-left: 100px;
+}
+.shares_text {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	text-align: center;
+}
+.shares {
+	width: 487px;
+	margin-top: 47px;
+}
 .about {
 	padding-top: 80px;
 	background-color: white;
@@ -450,7 +464,7 @@ footer {
 }
 .contacts {
 	float: left;
-	padding-left: 110px;
+	padding-left: 140px;
 }
 .contact_number {
 	color: black;
