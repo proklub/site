@@ -306,11 +306,14 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	margin-top: 20px;
+	padding-left: 32px;
 }
 .exp_date {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	margin-top: 20px;
+	padding-left: 32px;
+	padding-bottom: 18px;
 }
 .card_item:hover .adv_card {
 	display: block;
@@ -339,6 +342,7 @@ body {
 .about {
 	padding-top: 80px;
 	background-color: white;
+	padding-bottom: 80px;
 }
 .about_text {
 	font-family: 'Roboto', sans-serif;
@@ -356,4 +360,107 @@ body {
 }
 .par_2 {
 	margin-top: 48px;
+}
+footer {
+	background-color: #ecdae7;
+}
+.footer {
+	padding-top: 45px;
+}
+.overview {
+	float: left;
+	margin-left: 28px;
+}
+.overview ul li {
+	padding-top: 20px;
+}
+.footer_main_text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.footer_item {
+	text-decoration: none;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+.customer {
+	float: left;
+	margin-left: 140px;
+}
+.customer ul li {
+	padding-top: 20px;
+}
+.payment {
+	float: left;
+	padding-left: 140px;
+	position: relative;
+}
+.visa {
+	padding-top: 20px;
+	position: absolute;
+	right: 30px;
+}
+.mastercard {
+	padding-top: 20px;
+	position: absolute;
+	right: -30px;
+}
+.soc_net {
+	float: left;
+	padding-left: 140px;
+	position: relative;
+}
+.ico {
+	margin-top: 20px;
+	margin-left: 10px;
+	position: absolute;
+	right: -30px;
+}
+.icon-vkontakte {
+	color: white;
+	border: 1px solid #6996c7;
+	background-color: #6996c7;
+	padding: 8px 8px;
+}
+.icon-facebook {
+	color: white;
+	border: 1px solid #496194;
+	background-color: #496194;
+	padding: 8px 8px;
+}
+.icon-twitter {
+	color: white;
+	border: 1px solid #496194;
+	background-color: #496194;
+	padding: 8px 8px;
+}
+.icon-twitter {
+	color: white;
+	border: 1px solid #28c3ff;
+	background-color: #28c3ff;
+	padding: 8px 8px;
+}
+.icon-odnoklassniki {
+	color: white;
+	border: 1px solid #ff9c43;
+	background-color: #ff9c43;
+	padding: 8px 8px;
+}
+.contacts {
+	float: left;
+	padding-left: 110px;
+}
+.contact_number {
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	padding-top: 20px;
+}
+.cont_email {
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	padding-top: 20px;
 }
