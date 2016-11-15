@@ -371,6 +371,8 @@ body {
 	line-height: 30px;
 	text-align: left;
 	text-align: justify;
+	padding-left: 65px;
+	padding-right: 65px;
 }
 .par_2 {
 	margin-top: 48px;
@@ -477,4 +479,16 @@ footer {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	padding-top: 20px;
+}
+.slick-dots li button {
+	color: #cccccc;
+	border: 1px solid #cccccc;
+	padding: 5px 5px;
+	background-color: #cccccc;
+}
+.slick-dots li button:hover {
+	background-color: #b85e9f;
+}
+.slick-dots li button:before {
+	content: '';
 }
