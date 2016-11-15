@@ -82,14 +82,16 @@ body {
 	text-decoration: none;
 	color: black;
 }
-.cart {
-	float: left;
-	width: 66px;
-	height: 40px;
-	border: 2px solid #34bdab;
-	box-sizing: border-box;
-	background: #34bdab;
-	margin-left: 58px;
+.icon-basket {
+    float: left;
+    width: 66px;
+    height: 40px;
+    color: white;
+    background-color: #34bdab;
+    margin-left: 58px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
 }
 .main_menu {
 	height: 110px;
@@ -131,6 +133,9 @@ body {
 	height: 30px;
 	border-top-right-radius: 7pc;
 	border-bottom-right-radius: 7pc;
+}
+.icon-search {
+	color: white;
 }
 .nav {
 	background-color: #b85e9f;
@@ -410,63 +415,83 @@ footer {
 }
 .payment {
 	float: left;
-	padding-left: 140px;
-	position: relative;
+	padding-left: 120px;
+}
+.payment_main_text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 20px;
 }
 .visa {
 	padding-top: 20px;
-	position: absolute;
-	right: 30px;
 }
 .mastercard {
 	padding-top: 20px;
-	position: absolute;
-	right: -30px;
 }
 .soc_net {
 	float: left;
-	padding-left: 140px;
-	position: relative;
+	padding-left: 120px;
+}
+.soc_net_main_text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 20px;
 }
 .ico {
 	margin-top: 20px;
 	margin-left: 10px;
-	position: absolute;
 	right: -30px;
 }
 .icon-vkontakte {
 	color: white;
 	border: 1px solid #6996c7;
 	background-color: #6996c7;
-	padding: 8px 8px;
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	text-align: center;
+	line-height: 34px;
 }
 .icon-facebook {
 	color: white;
 	border: 1px solid #496194;
 	background-color: #496194;
-	padding: 8px 8px;
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	text-align: center;
+	line-height: 34px;
 }
 .icon-twitter {
 	color: white;
 	border: 1px solid #496194;
 	background-color: #496194;
-	padding: 8px 8px;
-}
-.icon-twitter {
-	color: white;
-	border: 1px solid #28c3ff;
-	background-color: #28c3ff;
-	padding: 8px 8px;
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	text-align: center;
+	line-height: 34px;
 }
 .icon-odnoklassniki {
 	color: white;
 	border: 1px solid #ff9c43;
 	background-color: #ff9c43;
-	padding: 8px 8px;
+	width: 34px;
+	height: 34px;
+	display: inline-block;
+	text-align: center;
+	line-height: 34px;
 }
 .contacts {
 	float: left;
-	padding-left: 140px;
+	padding-left: 100px;
+}
+.contacts_main_text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
 }
 .contact_number {
 	color: black;
