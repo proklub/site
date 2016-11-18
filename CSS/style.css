@@ -25,6 +25,7 @@ body {
 	font-size: 12px;
 	text-decoration: none;
 	color: black;
+	padding-left: 10px;
 }
 .menu:before {
 	content: "";
@@ -43,7 +44,7 @@ body {
 .cities {
 	float: left;
 	padding-top: 14px;
-	padding-left: 72px;
+	padding-left: 62px;
 }
 .city_text {
 	font-family: 'Roboto', sans-serif;
@@ -166,6 +167,11 @@ body {
 	margin-top: 20px;
 	position: relative;
 }
+.navbar_point {
+    padding: 10px 10px;
+    width: 120px;
+    background-color: white;
+}
 .navbar_item:hover .navbar_child {
 	opacity: 1;
 	display: block;
@@ -287,6 +293,16 @@ body {
 	height: 490px;
 	position: relative;
 	z-index: 10;
+}
+@media (max-width: 768px) {
+	.sale {
+		max-width: 50%
+	}
+}
+@media (max-width: 480px) {
+	.sale {
+		max-width: 25%;
+	}
 }
 .adv_card {
 	width: 290px;
