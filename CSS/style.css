@@ -84,15 +84,15 @@ body {
 	color: black;
 }
 .icon-basket {
-    float: left;
-    width: 66px;
-    height: 40px;
-    color: white;
-    background-color: #34bdab;
-    margin-left: 58px;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
+	float: left;
+	width: 66px;
+	height: 40px;
+	color: white;
+	background-color: #34bdab;
+	margin-left: 58px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
 }
 .main_menu {
 	height: 110px;
@@ -162,20 +162,20 @@ body {
 }
 .navbar_child {
 	opacity: 0;
-	display: none;
+	visibility: hidden;
 	box-shadow: 0 0 5px;
 	margin-top: 20px;
-	position: relative;
+	position: absolute;
+	transition: all .3s ease .15s;
 }
 .navbar_point {
-    padding: 10px 10px;
-    width: 120px;
-    background-color: white;
+	padding: 10px 10px;
+	width: 120px;
+	background-color: white;
 }
 .navbar_item:hover .navbar_child {
 	opacity: 1;
-	display: block;
-	position: absolute;
+	visibility: visible;
 	z-index: 10;
 }
 .navbar_child .navbar_text {
@@ -191,8 +191,23 @@ body {
 	height: 305px;
 	background: url(../img/background.png);
 }
+.adver {
+	float: left;
+	margin-top: 70px;
+	margin-left: 110px;
+}
 .adver_img {
-	padding: 70px 70px;
+	display: block;
+	margin: 0 auto;
+}
+.adver:first-child {
+	margin-left: 125px;
+}
+.adver_text {
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top: 25px;
 }
 .brands {
 	padding-top: 80px;
