@@ -27,12 +27,14 @@
 		<div class="clearfix"></div>
 		<div class="container">
 			<div class="main_menu">
-				<div class="hotline"><a href="#" class="hotline_text">Телефон горячей линии:<span>8(916)950-64-46</span></a></div>
+				<div class="hotline"><span class="hotline_text">Телефон горячей линии:</span><a class="hotline_number" href="tel:89169506446">8(916)950-64-46</a></div>
 				<img src="img/logo.png" alt="cosmetic" class="main_logo">
+				<div class="site_search">
 				<input type="text" name="name" class="search_text" tabindex="1" placeholder="Введите запрос" required>
 				<button class="search">
 					<i class="icon-search"></i>
 				</button>
+				</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
@@ -142,13 +144,58 @@
 			<h2 class="brand_head">БРЭНДЫ</h2>
 			<div class="brand_slider">
 				<div class="slider_blk">
-					<img src="img/multi_slider_one.png" alt="cosmetic" class="slider_img">
+					<img src="img/logo-1.png" alt="cosmetic" class="slider_img">
 				</div>
 				<div class="slider_blk">
-					<img src="img/multi_slider_one.png" alt="cosmetic" class="slider_img">
+					<img src="img/logo-2.png" alt="cosmetic" class="slider_img">
 				</div>
 				<div class="slider_blk">
-					<img src="img/multi_slider_one.png" alt="cosmetic" class="slider_img">
+					<img src="img/logo-3.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-4.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-5.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-6.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-1.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-2.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-3.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-4.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-5.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-6.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-1.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-2.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-3.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-4.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-5.png" alt="cosmetic" class="slider_img">
+				</div>
+				<div class="slider_blk">
+					<img src="img/logo-6.png" alt="cosmetic" class="slider_img">
 				</div>
 			</div>
 		</div>
@@ -561,6 +608,9 @@
 					$('.solo_slider').slick({
 					});
 					$('.brand_slider').slick({
+						infinite: true,
+						slidesToShow: 6,
+						slidesToScroll: 3,
 					});
 					$('.novice_slider').slick({
 						infinite: true,
