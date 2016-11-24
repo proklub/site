@@ -1,7 +1,7 @@
 .clearfix:after {
-	display: table
+	display: table;
 	content: '';
-	clear: both
+	clear: both;
 }
 body {
 	background-image: url(../img/background_main.png);
@@ -16,7 +16,8 @@ body {
 }
 .menu {
 	float: left;
-	padding-top: 14px;
+	height: 40px;
+	line-height: 40px;
 	position: relative;
 	padding-left: 16px;
 }
@@ -44,19 +45,46 @@ body {
 
 .cities {
 	float: left;
-	margin-top: 14px;
-	margin-left: 62px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 70px;
 }
 .city_text {
-	font-family: 'Roboto', sans-serif;
-	font-size: 12px;
-	text-decoration: none;
-	color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
 }
-.cities:after {
+.city_scroll {
+	opacity: 0;
+	visibility: hidden;
+	box-shadow: 0 0 5px;
+	position: absolute;
+	transition: all .3s ease .15s;
+	background-color: white;
+	padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 13px;
+    padding-right: 63px;
+}
+.city_scroll:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid white;
+    position: absolute;
+    top: -5px;
+    left: 50px;
+}
+.city_point {
+	display: block;
 	position: relative;
-	top: 0px;
-	left: 10px;
+	cursor: pointer;
+}
+.city_point:after {
+	margin-left: 7px;
 	content: "";
 	display: inline-block;
 	width: 7px;
@@ -64,13 +92,19 @@ body {
 	border-right: 2px solid #bb66a4;
 	border-bottom: 2px solid #bb66a4;
 	transform: rotate(45deg);
+}
+.city_point:hover .city_scroll {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
 }	
 .headline {
 	float: left;
 	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 	font-size: 12px;
 	margin-top: 16px;
-	margin-left: 74px;
+	margin-left: 75px;
 	color: #b85e9f;
 }
 .enter {
@@ -78,7 +112,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	margin-top: 16px;
-	margin-left: 57px;
+	margin-left: 55px;
 }
 .enreg {
 	text-decoration: none;
@@ -86,7 +120,7 @@ body {
 }
 .cart {
 	float: left;
-	margin-left: 65px;
+	margin-left: 63px;
 }
 .shop_cart {
 }
@@ -120,30 +154,31 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	text-decoration: none;
+	margin-left: 17px;
 }
 .main_logo {
 	float: left;
-	margin-left: 106px;
+	margin-left: 115px;
 	margin-top: 22px;
 }
-.search_text {
+.site_search {
 	float: left;
+	margin-top: 38px;
 	margin-left: 91px;
-	margin-top: 40px;
+}
+.search_text {
 	width: 293px;
 	height: 24px;
 	padding-left: 10px;
 }
 .search {
-	float: left;
-	margin-top: 40px;
 	border: 1px solid #48c3b3;
 	background: #48c3b3;
 	box-sizing: border-box;
 	width: 67px;
 	height: 30px;
-	border-top-right-radius: 7pc;
-	border-bottom-right-radius: 7pc;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 	cursor: pointer;
 }
 .icon-search {
@@ -162,11 +197,12 @@ body {
 }
 .navbar_item {
 	float: left;
-	padding-left: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 40px;
+	line-height: 40px;
 	display: block;
 	position: relative;
-	cursor: pointer;
-	padding-top: 16px;
 }
 .navbar_item:nth-child(1) {
 	padding-left: 18px;
@@ -197,6 +233,18 @@ body {
 }
 .solo_slider {
 	margin: 30px;
+}
+button.slick-prev.slick-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #d6f1ed;
+    left: -70px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 .advertising {
 	height: 305px;
@@ -283,17 +331,15 @@ body {
 	padding-left: 12px;
 }
 .trade_price {
-	margin-top: 20px;
-	padding-top: 15px;
+	margin-top: 20px;	
+	margin-left: 15px;
+	padding: 10px 10px 10px 10px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
-	margin-left: 15px;
-	padding-left: 10px;
 	color: white;
 	background-color: #b85e9f;
 	border: 1px solid #b85e9f;
-	min-width: 85px;
-	height: 32px;
+	display: inline-block;
 }
 .sale {
 	background-color: white;
@@ -463,7 +509,7 @@ footer {
 }
 .payment {
 	float: left;
-	padding-left: 120px;
+	margin-left: 120px;
 }
 .payment_main_text {
 	font-family: 'Roboto', sans-serif;
@@ -479,7 +525,7 @@ footer {
 }
 .soc_net {
 	float: left;
-	padding-left: 120px;
+	margin-left: 120px;
 }
 .soc_net_main_text {
 	font-family: 'Roboto', sans-serif;
