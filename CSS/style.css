@@ -246,6 +246,49 @@ button.slick-prev.slick-arrow {
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
 }
+
+.slick-prev:before {
+	content: '';
+    width: 7px;
+    height: 7px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    border-radius: 2px;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+    top: -4px;
+}
+button.slick-prev.slick-arrow:hover {
+	background-color: #48c3b3;
+}
+button.slick-next.slick-arrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #d6f1ed;
+    right: -70px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.slick-next:before {
+	content: '';
+    width: 7px;
+    height: 7px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    border-radius: 2px;
+    display: inline-block;
+    transform: rotate(-135deg);
+    position: relative;
+    top: -4px;
+}
+button.slick-next.slick-arrow:hover {
+	background-color: #48c3b3;
+}
 .advertising {
 	height: 305px;
 	background: url(../img/background.png);
