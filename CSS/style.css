@@ -234,7 +234,7 @@ body {
 .solo_slider {
 	margin: 30px;
 }
-button.slick-prev.slick-arrow {
+.solo_slider button.slick-prev.slick-arrow {
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -259,10 +259,10 @@ button.slick-prev.slick-arrow {
     position: relative;
     top: -4px;
 }
-button.slick-prev.slick-arrow:hover {
+.solo_slider button.slick-prev.slick-arrow:hover {
 	background-color: #48c3b3;
 }
-button.slick-next.slick-arrow {
+.solo_slider button.slick-next.slick-arrow {
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -286,8 +286,60 @@ button.slick-next.slick-arrow {
     position: relative;
     top: -4px;
 }
-button.slick-next.slick-arrow:hover {
+.solo_slider button.slick-next.slick-arrow:hover {
 	background-color: #48c3b3;
+}
+.brand_slider button.slick-prev.slick-arrow {
+    left: -100px;
+}
+.brand_slider button.slick-prev.slick-arrow:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    display: inline-block;
+}
+.brand_slider button.slick-next.slick-arrow {
+    right: -30px;
+}
+.brand_slider button.slick-next.slick-arrow:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    display: inline-block;
+}
+.novice_slider button.slick-prev.slick-arrow {
+    left: -30px;
+}
+.novice_slider button.slick-prev.slick-arrow:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    display: inline-block;
+}
+.novice_slider button.slick-next.slick-arrow {
+    right: -30px;
+}
+.novice_slider button.slick-next.slick-arrow:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    display: inline-block;
 }
 .advertising {
 	height: 305px;
