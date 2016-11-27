@@ -706,3 +706,10 @@ footer {
 .slick-dots li button:before {
 	content: '';
 }
+.copy {
+	margin-top: 35px;
+	margin-left: 30px;
+	padding-bottom: 23px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
