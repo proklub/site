@@ -517,6 +517,7 @@ body {
 .news_shares {
 	padding-top: 86px;
 	background-color: white;
+	padding-left: 66px;
 }
 .news {
 	float: left;
