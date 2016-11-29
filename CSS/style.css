@@ -404,13 +404,13 @@ body {
 	unicode-bidi: bidi-override;
 	direction: rtl;
 	width: 130px;
+	margin-top: 30px;
 }
 .icon-star {
 	content: '\e802';
 	color: #cccccc;
 	font-size: 15px;
 	display: inline-block;
-	padding-top: 30px;
 }
 .rating > i:hover,
 .rating > i:hover ~ i {
