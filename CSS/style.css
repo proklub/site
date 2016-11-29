@@ -159,9 +159,9 @@ body {
 	margin-left: 92px;
 }
 .search_text {
-    width: 293px;
-    padding: 5px 10px;
-    box-sizing: border-box;
+	width: 293px;
+	padding: 5px 10px;
+	box-sizing: border-box;
 }
 .search {
 	border: 1px solid #48c3b3;
@@ -282,7 +282,7 @@ body {
 	background-color: #48c3b3;
 }
 .brand_slider button.slick-prev.slick-arrow {
-	left: -100px;
+	left: -30px;
 }
 .brand_slider button.slick-prev.slick-arrow:before {
 	content: '';
@@ -334,13 +334,13 @@ body {
 	display: inline-block;
 }
 .advertising {
-	height: 305px;
 	background: url(../img/background.png);
 }
 .adver {
 	float: left;
 	margin-top: 70px;
 	margin-left: 110px;
+	padding-bottom: 72px;
 }
 .adver_img {
 	display: block;
@@ -356,23 +356,29 @@ body {
 	margin-top: 25px;
 }
 .brands {
-	padding-top: 80px;
 	background-color: white;
 }
 .brand_head {
+	padding-top: 80px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 28px;
 	font-weight: bold;
 	text-align: center;
 }
 .brand_slider {
-	margin-top: 60px;
-	margin-left: 70px;
+	margin-top: 61px;
 }
 .slider_blk {
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
+	position: relative;
+	height: 100px;
+}
+.slider_img {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 .novice {
 	background-color: white;
